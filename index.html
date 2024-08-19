@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de números</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <section>
+        <div>
+            <p>Adicione numeros de 1 até 100: </p> <input type="number" id="txtnum">
+        </div>
+        <div>
+            <input type="button" value="adicionar" onclick="adicionarNumero()">
+            </div>
+        <select name="analisar" id="analisando" size="6"> </select>
+        <div>
+            <input type="button" value="analisar" onclick="analisarNumeros()">
+        </div>
+        <div id="res">
+        </div>
+    </section>
+    <footer>
+        <p> &copy; Karine Neves</p>
+        <script src="./script.js"></script>
+    </footer>
+</body>
+</html>
